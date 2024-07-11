@@ -8,9 +8,6 @@ This might leads to some inconsistent results with those in the paper.
 ## Training & Evaluation
 ### Pre-training: ###
 ```
-cd ./bio
-python pretrain_graphcl.py --aug1 random --aug2 random
-cd ./chem
 python pretrain_graphcl.py --aug1 random --aug2 random
 ```
 
