@@ -1,0 +1,40 @@
+dataset: qm7
+ distance type: kernel
+ subset: none, mmd: 9.149853706359863, dkl result: 128.9967698639145, nn result: 131.4694876791159
+
+dataset: qm7
+ distance type: kernel
+ epoch: 10, mmd: 1.182400107383728, dkl result: 155.53208640394612, nn result: 153.9005314707662
+
+dataset: qm7
+ distance type: kernel
+ epoch: 20, mmd: 10.522502899169922, dkl result: 183.04514869008705, nn result: 197.40026329871765
+
+dataset: qm7
+ distance type: kernel
+ epoch: 30, mmd: 14.683560371398926, dkl result: 200.8722746584978, nn result: 212.12212317839507
+
+dataset: qm7
+ distance type: kernel
+ epoch: 40, mmd: 10.64147663116455, dkl result: 166.5389281945035, nn result: 178.50639906001982
+
+dataset: qm7
+ distance type: kernel
+ epoch: 50, mmd: 13.50462818145752, dkl result: 206.8338202169804, nn result: 188.81773472614992
+
+dataset: qm7
+ distance type: kernel
+ epoch: 60, mmd: 13.151178359985352, dkl result: 243.13304677447752, nn result: 222.24043616070549
+
+dataset: qm7
+ distance type: kernel
+ epoch: 70, mmd: 13.32243537902832, dkl result: 238.7701147829548, nn result: 198.4837837825835
+
+dataset: qm7
+ distance type: kernel
+ epoch: 80, mmd: 12.804386138916016, dkl result: 215.3769704302283, nn result: 186.63616729948694
+
+dataset: qm7
+ distance type: kernel
+ epoch: 90, mmd: 10.815059661865234, dkl result: 252.8336468196211, nn result: 249.6017237149479
+

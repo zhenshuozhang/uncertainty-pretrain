@@ -1,0 +1,72 @@
+dataset: clintox
+ distance type: kernel
+ subset: none, mmd: -0.010859030298888683, dkl result: 0.6769801550064296, nn result: 0.6687028637959198
+
+dataset: clintox
+ distance type: kernel
+ epoch: 10, mmd: 0.0005156194092705846, dkl result: 0.639488409272582, nn result: 0.717252285128419
+
+dataset: clintox
+ distance type: kernel
+ subset: none, mmd: -0.006198407616466284, dkl result: 0.6870260313488339, nn result: 0.6322424668960483
+
+dataset: clintox
+ distance type: kernel
+ epoch: 10, mmd: -0.005385485477745533, dkl result: 0.7467625899280576, nn result: 0.673933896361172
+
+dataset: clintox
+ distance type: kernel
+ epoch: 20, mmd: 0.0038802861236035824, dkl result: 0.7598416918639002, nn result: 0.7962308414138255
+
+dataset: clintox
+ distance type: kernel
+ epoch: 30, mmd: -0.001609209575690329, dkl result: 0.736890487609912, nn result: 0.6819275014770791
+
+dataset: clintox
+ distance type: kernel
+ epoch: 40, mmd: 0.0027301108930259943, dkl result: 0.6910506377506691, nn result: 0.7401383241233102
+
+dataset: clintox
+ distance type: kernel
+ epoch: 50, mmd: -0.004297025501728058, dkl result: 0.7193792791853474, nn result: 0.6803009766100163
+
+dataset: clintox
+ distance type: kernel
+ epoch: 60, mmd: 0.00036982656456530094, dkl result: 0.6796806033434123, nn result: 0.680431741563271
+
+dataset: clintox
+ distance type: kernel
+ epoch: 70, mmd: -9.127314115175977e-05, dkl result: 0.6057588711639383, nn result: 0.6146326417127168
+
+dataset: clintox
+ distance type: kernel
+ epoch: 80, mmd: 0.0004992315662093461, dkl result: 0.7745885899975672, nn result: 0.7670324609877316
+
+dataset: clintox
+ distance type: kernel
+ subset: none, mmd: 0.01048758253455162, dkl result: 0.5390096618357488, nn result: 0.5328485038056512
+
+dataset: clintox
+ distance type: kernel
+ epoch: 10, mmd: 0.007143853697925806, dkl result: 0.7374543843186321, nn result: 0.7271113543947451
+
+dataset: clintox
+ distance type: kernel
+ epoch: 20, mmd: 0.005434757564216852, dkl result: 0.7173287456990929, nn result: 0.7315265179161019
+
+dataset: clintox
+ distance type: kernel
+ epoch: 30, mmd: 0.01007821038365364, dkl result: 0.7139818579918674, nn result: 0.7829258332464464
+
+dataset: clintox
+ distance type: kernel
+ epoch: 40, mmd: 0.011368166655302048, dkl result: 0.6529280923087617, nn result: 0.7405605950022591
+
+dataset: clintox
+ distance type: kernel
+ epoch: 50, mmd: 0.009680588729679585, dkl result: 0.6915324262329267, nn result: 0.7659919890174817
+
+dataset: clintox
+ distance type: kernel
+ epoch: 60, mmd: 0.012040862813591957, dkl result: 0.6768081187224133, nn result: 0.6963307614777743
+

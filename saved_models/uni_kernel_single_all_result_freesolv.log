@@ -1,0 +1,40 @@
+dataset: freesolv
+ distance type: kernel
+ model: pre
+ kernel output scale: 1.2074772119522095
+  self points:
+   min: 9.785081815996688e-14, max: 1.2074772119522095, mean: 0.685145914554596, edge: 1.2074772119522095
+  center dis:
+   min: 0.018806463107466698, max: 0.8973073959350586, mean: 0.4791341722011566
+  in dis: 2000000, out dis: 0
+
+dataset: freesolv
+ distance type: kernel
+ model: none
+ kernel output scale: 1.233523964881897
+  self points:
+   min: 0.00021673312585335225, max: 1.233523964881897, mean: 0.689664900302887, edge: 1.233523964881897
+  center dis:
+   min: 2.43259612453528e-09, max: 1.2334765195846558, mean: 0.5972094535827637
+  in dis: 1999811, out dis: 189
+
+dataset: freesolv
+ distance type: l2
+ model: pre
+ kernel output scale: 1.2074772119522095
+  self points:
+   min: 1.7002348613459617e-06, max: 50.124202728271484, mean: 6.925841808319092, edge: 0.0
+  center dis:
+   min: 5.424684047698975, max: 17.391206741333008, mean: 8.025568962097168
+  in dis: 2000000, out dis: 0
+
+dataset: freesolv
+ distance type: l2
+ model: none
+ kernel output scale: 1.233523964881897
+  self points:
+   min: 2.477281668689102e-06, max: 25.781288146972656, mean: 15.450616836547852, edge: 0.0
+  center dis:
+   min: 0.15859009325504303, max: 51.85792922973633, mean: 14.60840129852295
+  in dis: 1976592, out dis: 23408
+

@@ -1,0 +1,24 @@
+dataset: qm7
+ distance type: kernel
+ subset: none, mmd: 14.043722152709961
+
+dataset: qm7
+ distance type: kernel
+ subset: 0, mmd: 11.423917770385742
+
+dataset: qm7
+ distance type: kernel
+ subset: 1, mmd: 14.277755737304688
+
+dataset: qm7
+ distance type: kernel
+ subset: 2, mmd: 9.231647491455078
+
+dataset: qm7
+ distance type: kernel
+ subset: 3, mmd: 0.3114570677280426
+
+dataset: qm7
+ distance type: kernel
+ subset: 4, mmd: 17.125965118408203
+

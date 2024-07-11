@@ -1,0 +1,12 @@
+dataset: bbbp
+ distance type: kernel
+ epoch: none
+  none    : dkl result: 0.6920331790123457, nn result: 0.6902006172839505
+  pretrain: dkl result: 0.6740933641975309, nn result: 0.6716820987654322
+ same kernel in train data:
+  none-kernel: none_diversity: 0.41789278388023376, pre_diversity: 0.32733625173568726, none_pre_distance: -0.5388699173927307, none_pre_mmd: 0.20635908842086792
+  pre-kernel : none_diversity: 0.3550712466239929, pre_diversity: 0.32709458470344543, none_pre_distance: -0.570280909538269, none_pre_mmd: 0.1118849515914917
+ same encoder in different data:
+  none-encoder: downstream_diversity: 0.41789278388023376, pretrain_diversity: 0.5152289271354675, downstream_pretrain_distance: -0.8939346075057983, downstream_pretrain_mmd: 0.03918711468577385
+  pre-encoder : downstream_diversity: 0.32709458470344543, pretrain_diversity: 0.4001528024673462, downstream_pretrain_distance: -0.7136691212654114, downstream_pretrain_mmd: 0.013578266836702824
+

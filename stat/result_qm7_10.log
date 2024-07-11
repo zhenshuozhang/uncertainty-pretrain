@@ -1,0 +1,132 @@
+dataset: qm7
+ distance type: kernel
+ subset: none, mmd: 3.8005104064941406
+
+dataset: qm7
+ distance type: kernel
+ subset: 0, mmd: 13.105395317077637
+
+dataset: qm7
+ distance type: kernel
+ subset: 1, mmd: 16.919940948486328
+
+dataset: qm7
+ distance type: kernel
+ subset: 2, mmd: 15.97498893737793
+
+dataset: qm7
+ distance type: kernel
+ subset: 3, mmd: 17.790401458740234
+
+dataset: qm7
+ distance type: kernel
+ subset: 4, mmd: 17.444704055786133
+
+dataset: qm7
+ distance type: kernel
+ subset: 5, mmd: 17.144733428955078
+
+dataset: qm7
+ distance type: kernel
+ subset: 6, mmd: 16.692047119140625
+
+dataset: qm7
+ distance type: kernel
+ subset: 7, mmd: 15.126898765563965
+
+dataset: qm7
+ distance type: kernel
+ subset: 8, mmd: 17.090682983398438
+
+dataset: qm7
+ distance type: kernel
+ subset: 9, mmd: 17.154247283935547
+
+dataset: qm7
+ distance type: kernel
+ subset: 9, mmd: 3.7613043785095215, result: 176.44647915373451
+
+dataset: qm7
+ distance type: kernel
+ subset: 0, mmd: 14.851258277893066, result: 188.05851403444595
+
+dataset: qm7
+ distance type: kernel
+ subset: 1, mmd: 16.52411651611328, result: 209.93857744769878
+
+dataset: qm7
+ distance type: kernel
+ subset: 2, mmd: 13.96713924407959, result: 221.38760859973706
+
+dataset: qm7
+ distance type: kernel
+ subset: 3, mmd: 15.848875045776367, result: 187.26625314653316
+
+dataset: qm7
+ distance type: kernel
+ subset: 4, mmd: 16.740779876708984, result: 188.5019774665864
+
+dataset: qm7
+ distance type: kernel
+ subset: 5, mmd: 14.503320693969727, result: 182.41702298103542
+
+dataset: qm7
+ distance type: kernel
+ subset: 6, mmd: 17.181270599365234, result: 184.82457295973524
+
+dataset: qm7
+ distance type: kernel
+ subset: 7, mmd: 14.649808883666992, result: 193.45632444553198
+
+dataset: qm7
+ distance type: kernel
+ subset: 8, mmd: 16.151100158691406, result: 184.611127688161
+
+dataset: qm7
+ distance type: kernel
+ subset: 9, mmd: 0.4424724876880646, result: 231.38342557015238
+
+dataset: qm7
+ distance type: kernel
+ subset: 9, mmd: 1.9504894018173218, dkl result: 133.96407524860706, nn result: 157.0453100527845
+
+dataset: qm7
+ distance type: kernel
+ subset: 0, mmd: 11.992574691772461, dkl result: 214.2836326346022, nn result: 195.94959230834033
+
+dataset: qm7
+ distance type: kernel
+ subset: 1, mmd: 3.9169464111328125, dkl result: 250.79068550333233, nn result: 252.7935566063998
+
+dataset: qm7
+ distance type: kernel
+ subset: 2, mmd: 4.048551082611084, dkl result: 273.8178405734004, nn result: 253.65048061340158
+
+dataset: qm7
+ distance type: kernel
+ subset: 3, mmd: 1.0490399599075317, dkl result: 305.5990393817532, nn result: 317.0486679983705
+
+dataset: qm7
+ distance type: kernel
+ subset: 4, mmd: 8.147564888000488, dkl result: 267.91842779163795, nn result: 253.35889091166206
+
+dataset: qm7
+ distance type: kernel
+ subset: 5, mmd: 9.983194351196289, dkl result: 282.76036642032915, nn result: 268.5793260026215
+
+dataset: qm7
+ distance type: kernel
+ subset: 6, mmd: 9.98826789855957, dkl result: 197.14628370736227, nn result: 180.2888999021944
+
+dataset: qm7
+ distance type: kernel
+ subset: 7, mmd: 8.561617851257324, dkl result: 235.7261201928087, nn result: 238.33275177081103
+
+dataset: qm7
+ distance type: kernel
+ subset: 8, mmd: 8.083098411560059, dkl result: 305.78909351509856, nn result: 266.5860751601317
+
+dataset: qm7
+ distance type: kernel
+ subset: 9, mmd: 8.671951293945312, dkl result: 347.9151901520571, nn result: 308.33991412911644
+

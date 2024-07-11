@@ -1,0 +1,40 @@
+dataset: esol
+ distance type: kernel
+ model: pre
+ kernel output scale: 1.0677192211151123
+  self points:
+   min: 0.004126804880797863, max: 1.0677192211151123, mean: 0.4596300721168518, edge: 0.39872899651527405
+  center dis:
+   min: 0.0, max: 0.9984429478645325, mean: 0.7011868953704834
+  in dis: 1999998, out dis: 2
+
+dataset: esol
+ distance type: kernel
+ model: none
+ kernel output scale: 1.1855398416519165
+  self points:
+   min: 2.2195474347341815e-09, max: 1.1855398416519165, mean: 0.8646816611289978, edge: 1.1836477518081665
+  center dis:
+   min: 4.6952003174283163e-08, max: 1.185519814491272, mean: 1.1327288150787354
+  in dis: 2000000, out dis: 0
+
+dataset: esol
+ distance type: l2
+ model: pre
+ kernel output scale: 1.0677192211151123
+  self points:
+   min: 1.0162227681576042e-06, max: 14.834744453430176, mean: 4.438732147216797, edge: 7.497609615325928
+  center dis:
+   min: 4.1940436363220215, max: 174.8252410888672, mean: 5.863832473754883
+  in dis: 1999998, out dis: 2
+
+dataset: esol
+ distance type: l2
+ model: none
+ kernel output scale: 1.1855398416519165
+  self points:
+   min: 6.039625191078812e-07, max: 22.86311912536621, mean: 4.158213138580322, edge: 7.544583320617676
+  center dis:
+   min: 0.7435272336006165, max: 21.640249252319336, mean: 6.008516788482666
+  in dis: 2000000, out dis: 0
+

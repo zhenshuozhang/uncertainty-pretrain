@@ -1,0 +1,2 @@
+uncertainty method,rmse-mean,mae-mean,var-mean,nll-mean,ce-mean,rmse-std,mae-std,var-std,nll-std,ce-std
+GraphCL-embsvdkl-s2-extra,223.1396,221.7250,160.1096,251.5209,0.1835,0.3107,0.3159,3.4926,11.1151,0.0009

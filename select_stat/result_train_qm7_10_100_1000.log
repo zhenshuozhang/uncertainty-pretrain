@@ -1,0 +1,140 @@
+Time: 2024-03-04 20:07:31
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='reverse', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: reverse
+ iter: 0
+  finetune result: dkl result: 133.3699513141048, nn result: 143.12165768009132
+
+Time: 2024-03-04 21:55:43
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='reverse', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: reverse
+ iter: 1
+  finetune result: dkl result: 140.74263876538885, nn result: 132.0999607984179
+
+Time: 2024-03-04 23:18:24
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='reverse', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: reverse
+ iter: 2
+  finetune result: dkl result: 136.8108417946378, nn result: 146.55042100161208
+
+Time: 2024-03-05 00:40:26
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='reverse', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: reverse
+ iter: 3
+  finetune result: dkl result: 171.66618818339697, nn result: 154.49111155328063
+
+Time: 2024-03-05 02:02:12
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='reverse', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: reverse
+ iter: 4
+  finetune result: dkl result: 327.1758154943597, nn result: 274.2337073939116
+
+Time: 2024-03-05 03:24:24
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='reverse', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: reverse
+ iter: 5
+  finetune result: dkl result: 296.1543622752851, nn result: 312.50582907594605
+
+Time: 2024-03-05 04:46:18
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='reverse', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: reverse
+ iter: 6
+  finetune result: dkl result: 171.59078367020246, nn result: 172.31336193206465
+
+Time: 2024-03-05 06:08:34
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='reverse', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: reverse
+ iter: 7
+  finetune result: dkl result: 223.98470928838577, nn result: 210.98517918151796
+
+Time: 2024-03-05 07:30:54
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='reverse', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: reverse
+ iter: 8
+  finetune result: dkl result: 176.5852181716553, nn result: 173.35171177283456
+
+Time: 2024-03-05 08:53:35
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='reverse', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: reverse
+ iter: 9
+  finetune result: dkl result: 199.8633943769184, nn result: 204.4564303567715
+
+Time: 2024-03-09 14:40:19
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='order', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: order
+ iter: 0
+  finetune result: dkl result: 124.8291551676993, nn result: 126.52811291979751
+
+Time: 2024-03-09 16:05:13
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='order', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: order
+ iter: 1
+  finetune result: dkl result: 148.73193147617087, nn result: 176.22300105151314
+
+Time: 2024-03-09 17:29:45
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='order', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: order
+ iter: 2
+  finetune result: dkl result: 163.45915791088197, nn result: 161.2739340283583
+
+Time: 2024-03-09 18:51:15
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='order', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: order
+ iter: 3
+  finetune result: dkl result: 136.59813207464035, nn result: 147.96187076228392
+
+Time: 2024-03-09 20:12:46
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='order', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: order
+ iter: 4
+  finetune result: dkl result: 242.4312613165555, nn result: 211.514698313297
+
+Time: 2024-03-09 21:29:19
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='order', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: order
+ iter: 5
+  finetune result: dkl result: 161.72278902950856, nn result: 137.05580683293212
+
+Time: 2024-03-09 22:46:19
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='order', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: order
+ iter: 6
+  finetune result: dkl result: 154.5649704964421, nn result: 159.99917049557897
+
+Time: 2024-03-10 00:03:39
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='order', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: order
+ iter: 7
+  finetune result: dkl result: 140.7479533081274, nn result: 161.03238111390223
+
+Time: 2024-03-10 01:20:25
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='order', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: order
+ iter: 8
+  finetune result: dkl result: 150.19483579756582, nn result: 160.28221595534228
+
+Time: 2024-03-10 02:40:16
+Args: Namespace(device='cuda:2', pre_batch_size=2048, batch_size=128, pre_epochs=200, epochs=100, lr=0.001, lr_scale=1, decay=0, decay_dkl=0.0001, num_layer=5, emb_dim=300, proj_dim=300, dropout_ratio=0, JK='last', graph_pooling='mean', pre_dataset='zinc_standard_agent', dataset='qm7', output_model_file='', gnn_type='gin', seed=0, num_workers=8, aug1='random', aug_ratio1=0.2, aug2='random', aug_ratio2=0.2, sub_ratio=1, split='scaffold', eval_train=0, dis_type='kernel', ue_method='embsvdkl', n_ensemble=10, dkl_epochs=100, dkl_s='s2', n_inducing_points=1024, ind_type='random', dkl_scale=10, grid_bounds=10, grid_size=32, ll='elbo', extra_pll=True, csv=False, use_cfg=True, use_exp=False, tsb=False, order='order', save=False, load=False, save_kernel=False, tag='none', input_model_file='models_graphcl/graphcl_select.pth', task_type='reg', num_tasks=1)
+dataset: qm7
+ distance type: kernel order: order
+ iter: 9
+  finetune result: dkl result: 163.76431409191954, nn result: 143.63216498912766
+

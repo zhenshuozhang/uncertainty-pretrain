@@ -1,0 +1,44 @@
+dataset: esol
+ distance type: kernel
+ subset: none, mmd: 0.3743983507156372, dkl result: 1.1012555006379483, nn result: 1.1116283424261937
+
+dataset: esol
+ distance type: kernel
+ subset: 0, mmd: 0.3067830502986908, dkl result: 1.1712203371034144, nn result: 1.2089988320694764
+
+dataset: esol
+ distance type: kernel
+ subset: 1, mmd: 0.2811179757118225, dkl result: 1.1093367307354478, nn result: 1.2137102519910505
+
+dataset: esol
+ distance type: kernel
+ subset: 2, mmd: 0.262119323015213, dkl result: 1.1974022343422845, nn result: 1.096858507225643
+
+dataset: esol
+ distance type: kernel
+ subset: 3, mmd: 0.3186897039413452, dkl result: 1.2009109192952885, nn result: 1.3214068389473586
+
+dataset: esol
+ distance type: kernel
+ subset: 4, mmd: 0.42744699120521545, dkl result: 1.1739616397245582, nn result: 1.1964406004296355
+
+dataset: esol
+ distance type: kernel
+ subset: 5, mmd: 0.3943980038166046, dkl result: 1.1592761800215363, nn result: 1.1977897407928646
+
+dataset: esol
+ distance type: kernel
+ subset: 6, mmd: 0.3759497106075287, dkl result: 1.1592055611959875, nn result: 1.1437467772354228
+
+dataset: esol
+ distance type: kernel
+ subset: 7, mmd: 0.41286221146583557, dkl result: 1.2167627989178418, nn result: 1.2110840151749445
+
+dataset: esol
+ distance type: kernel
+ subset: 8, mmd: 0.4499358534812927, dkl result: 1.1896540850415689, nn result: 1.2376343580865392
+
+dataset: esol
+ distance type: kernel
+ subset: 9, mmd: 0.3802514970302582, dkl result: 1.1573384047376518, nn result: 1.08939518198115
+

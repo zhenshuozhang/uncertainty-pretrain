@@ -1,0 +1,40 @@
+dataset: lipophilicity
+ distance type: kernel
+ model: pre
+ kernel output scale: 0.7957489490509033
+  self points:
+   min: 0.0031714707147330046, max: 0.7957489490509033, mean: 0.5441484451293945, edge: 0.6673246026039124
+  center dis:
+   min: 0.0, max: 0.1354449987411499, mean: 0.002791477832943201
+  in dis: 340018, out dis: 1659982
+
+dataset: lipophilicity
+ distance type: kernel
+ model: none
+ kernel output scale: 0.7889384627342224
+  self points:
+   min: 0.0016130005242303014, max: 0.7889384627342224, mean: 0.5771129727363586, edge: 0.19855910539627075
+  center dis:
+   min: 2.2887662384837983e-28, max: 0.7512552738189697, mean: 0.09282989799976349
+  in dis: 1999114, out dis: 886
+
+dataset: lipophilicity
+ distance type: l2
+ model: pre
+ kernel output scale: 0.7957489490509033
+  self points:
+   min: 9.198997190651426e-07, max: 10.168954849243164, mean: 3.6167359352111816, edge: 3.659787178039551
+  center dis:
+   min: 5.840137004852295, max: 79.73764038085938, mean: 8.759817123413086
+  in dis: 1889421, out dis: 110579
+
+dataset: lipophilicity
+ distance type: l2
+ model: none
+ kernel output scale: 0.7889384627342224
+  self points:
+   min: 4.167218321526889e-07, max: 8.817084312438965, mean: 1.9733132123947144, edge: 1.4746266603469849
+  center dis:
+   min: 0.4378420114517212, max: 26.795970916748047, mean: 5.011575222015381
+  in dis: 1999601, out dis: 399
+

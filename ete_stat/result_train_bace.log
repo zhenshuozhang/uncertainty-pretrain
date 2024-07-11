@@ -1,0 +1,12 @@
+dataset: bace
+ distance type: kernel
+ epoch: none
+  none    : dkl result: 0.7223091636237177, nn result: 0.7337854286211094
+  pretrain: dkl result: 0.7276995305164319, nn result: 0.7367414362719527
+ same kernel in train data:
+  none-kernel: none_diversity: 0.3945912718772888, pre_diversity: 0.5838161706924438, none_pre_distance: -0.8880887627601624, none_pre_mmd: 0.09031867980957031
+  pre-kernel : none_diversity: 0.5226967930793762, pre_diversity: 0.39167821407318115, none_pre_distance: -0.8274351954460144, none_pre_mmd: 0.08693981170654297
+ same encoder in different data:
+  none-encoder: downstream_diversity: 0.3945912718772888, pretrain_diversity: 0.36373549699783325, downstream_pretrain_distance: -0.7469385862350464, downstream_pretrain_mmd: 0.011388183571398258
+  pre-encoder : downstream_diversity: 0.39167821407318115, pretrain_diversity: 0.3831116557121277, downstream_pretrain_distance: -0.7515046000480652, downstream_pretrain_mmd: 0.02328537404537201
+

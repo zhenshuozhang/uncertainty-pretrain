@@ -1,0 +1,5 @@
+uncertainty method,roc-auc-mean,prc-auc-mean,ece-mean,mce-mean,nll-mean,brier-mean,roc-auc-std,prc-auc-std,ece-std,mce-std,nll-std,brier-std
+GraphCL-embsvdkl-s2-no_train,0.6209,0.6542,0.1802,0.3106,0.7501,0.2759,0.0030,0.0065,0.0038,0.0550,0.0025,0.0011
+GraphCL-embsvdkl-s2,0.6698,0.6750,0.1450,0.5039,0.7119,0.2588,0.0050,0.0203,0.0080,0.0535,0.0044,0.0020
+GraphCL-embsvdkl-s2-no_train,0.6166,0.6489,0.1794,0.3028,0.7486,0.2753,0.0038,0.0082,0.0051,0.0361,0.0020,0.0008
+GraphCL-embsvdkl-s2,0.6968,0.7436,0.1924,0.4267,0.7120,0.2589,0.0118,0.0157,0.0107,0.0659,0.0052,0.0023

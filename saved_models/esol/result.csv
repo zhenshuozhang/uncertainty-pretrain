@@ -1,0 +1,7 @@
+kernel distance,input_model,distance function,model_id,size_of_in,size_of_out,rmse,nll,in_out,train_in,train_out,train_all
+none,none,kernel,no-value,2000000.0000,0.0000,1.1606,0.0000,no-value,no-value,no-value,0.1022
+models_graphcl/graphcl_sub_4_0.2.pth,models_graphcl/graphcl_sub_4_0.2.pth,kernel,4_0.2,400000.0000,1600000.0000,1.2102,0.0000,0.0000,0.1483,0.1475,0.1427
+models_graphcl/graphcl_sub_6_0.4.pth,models_graphcl/graphcl_sub_6_0.4.pth,kernel,6_0.4,800000.0000,1200000.0000,1.2319,0.0000,0.0000,0.1504,0.1437,0.1460
+models_graphcl/graphcl_sub_5_0.6.pth,models_graphcl/graphcl_sub_5_0.6.pth,kernel,5_0.6,1200000.0000,800000.0000,1.1997,0.0000,-0.0000,0.1526,0.1504,0.1478
+models_graphcl/graphcl_sub_7_0.8.pth,models_graphcl/graphcl_sub_7_0.8.pth,kernel,7_0.8,1600000.0000,400000.0000,1.2045,0.0000,0.0000,0.1980,0.1992,0.2014
+models_graphcl/graphcl_80.pth,models_graphcl/graphcl_80.pth,kernel,no-value,2000000.0000,0.0000,1.1736,0.0000,no-value,no-value,no-value,0.4275

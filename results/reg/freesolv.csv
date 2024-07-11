@@ -1,0 +1,2 @@
+uncertainty method,rmse-mean,mae-mean,var-mean,nll-mean,ce-mean,rmse-std,mae-std,var-std,nll-std,ce-std
+GraphCL-ensemble-s2,3.2516,2.4818,1.0993,16.8296,0.0596,0.1531,0.1409,0.3765,8.7344,0.0103

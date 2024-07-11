@@ -1,0 +1,10 @@
+kernel distance,input_model,distance function,model_id,size_of_in,size_of_out,rmse,nll,in_out,train_in,train_out,train_all
+none,none,kernel,no-value,2000000.0000,0.0000,0.7448,0.0000,no-value,no-value,no-value,0.3289
+models_graphcl/graphcl_sub_4_0.2.pth,models_graphcl/graphcl_sub_4_0.2.pth,kernel,4_0.2,400000.0000,1600000.0000,0.7533,0.0000,0.0000,0.3036,0.3036,0.3030
+models_graphcl/graphcl_sub_6_0.4.pth,models_graphcl/graphcl_sub_6_0.4.pth,kernel,6_0.4,800000.0000,1200000.0000,0.7837,0.0000,0.0001,0.3337,0.3333,0.3335
+models_graphcl/graphcl_sub_5_0.6.pth,models_graphcl/graphcl_sub_5_0.6.pth,kernel,5_0.6,1200000.0000,800000.0000,0.8037,0.0000,0.0000,0.2818,0.2821,0.2819
+models_graphcl/graphcl_sub_7_0.8.pth,models_graphcl/graphcl_sub_7_0.8.pth,kernel,7_0.8,1600000.0000,400000.0000,0.8380,0.0000,0.0001,0.3625,0.3611,0.3622
+models_graphcl/graphcl_20.pth,models_graphcl/graphcl_20.pth,kernel,no-value,2000000.0000,0.0000,0.7558,0.0000,no-value,no-value,no-value,0.4475
+models_graphcl/graphcl_40.pth,models_graphcl/graphcl_40.pth,kernel,no-value,2000000.0000,0.0000,0.7887,0.0000,no-value,no-value,no-value,0.4446
+models_graphcl/graphcl_60.pth,models_graphcl/graphcl_60.pth,kernel,no-value,2000000.0000,0.0000,0.7829,0.0000,no-value,no-value,no-value,0.4856
+models_graphcl/graphcl_80.pth,models_graphcl/graphcl_80.pth,kernel,no-value,2000000.0000,0.0000,0.7798,0.0000,no-value,no-value,no-value,0.4928

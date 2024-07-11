@@ -1,0 +1,144 @@
+dataset: qm7
+ distance type: kernel
+ epoch: none
+  fix_pretrain: dkl result: 435.24473456221165, nn result: 1480.3931357608074
+  finetune:     dkl result: 132.82444205189037, nn result: 133.55621604289433
+ same dataset, different encoder:
+  pretrain dataset:   k_init: 14.607539176940918, k_finetune: 4.776234149932861, k_dis: -0.002875490114092827, mmd2 19.380897521972656
+  downstream dataset: k_init: 13.083730697631836, k_finetune: 14.463326454162598, k_dis: -1.7966251373291016, mmd2 25.75043296813965
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 11.68494987487793, k_pre: 12.987424850463867, k_dis: -4.413567066192627, mmd2 20.258808135986328
+  finetune_encoder:     k_down: 14.056022644042969, k_pre: 4.689622402191162, k_dis: -0.00011408826685510576, mmd2 18.74553108215332
+
+dataset: qm7
+ distance type: kernel
+ epoch: 10
+  fix_pretrain: dkl result: 347.6701773539928, nn result: 1296.5641486883592
+  finetune:     dkl result: 202.32946888670014, nn result: 198.06465559419973
+ same dataset, different encoder:
+  pretrain dataset: k_init:   15.3967924118042, k_finetune: 14.963615417480469, k_dis: -18.26535987854004, mmd2 12.095047950744629
+  downstream dataset: k_init: 14.958986282348633, k_finetune: 14.492085456848145, k_dis: -2.503831624984741, mmd2 26.947240829467773
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 10.50571060180664, k_pre: 15.629119873046875, k_dis: -18.495771408081055, mmd2 7.639058589935303
+  finetune_encoder: k_down:     14.035264015197754, k_pre: 14.957256317138672, k_dis: -0.7703911066055298, mmd2 28.22212791442871
+
+dataset: qm7
+ distance type: kernel
+ epoch: 20
+  fix_pretrain: dkl result: 241.06594843817504, nn result: 1254.8003148828973
+  finetune:     dkl result: 194.12673824576498, nn result: 182.67441645933758
+ same dataset, different encoder:
+  pretrain dataset: k_init:   15.50069808959961, k_finetune: 13.998875617980957, k_dis: -26.91958999633789, mmd2 2.579983949661255
+  downstream dataset: k_init: 14.883389472961426, k_finetune: 14.483404159545898, k_dis: -2.548659324645996, mmd2 26.818134307861328
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 11.54750919342041, k_pre: 15.598220825195312, k_dis: -21.979272842407227, mmd2 5.166457176208496
+  finetune_encoder: k_down:     13.788046836853027, k_pre: 13.978361129760742, k_dis: -0.8511227369308472, mmd2 26.915285110473633
+
+dataset: qm7
+ distance type: kernel
+ epoch: 30
+  fix_pretrain: dkl result: 267.0497538839501, nn result: 1203.7874043271106
+  finetune:     dkl result: 232.31024377486847, nn result: 204.83151699383288
+ same dataset, different encoder:
+  pretrain dataset: k_init:   15.46078109741211, k_finetune: 11.301470756530762, k_dis: -0.07091772556304932, mmd2 26.691335678100586
+  downstream dataset: k_init: 14.918941497802734, k_finetune: 14.512706756591797, k_dis: -2.864961862564087, mmd2 26.566686630249023
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 11.6141939163208, k_pre: 15.670838356018066, k_dis: -22.259117126464844, mmd2 5.025915145874023
+  finetune_encoder: k_down:     14.083575248718262, k_pre: 11.264358520507812, k_dis: -0.0028713622596114874, mmd2 25.345062255859375
+
+dataset: qm7
+ distance type: kernel
+ epoch: none
+  fix_pretrain: dkl result: 447.5882768665126, nn result: 1445.317333384523
+  finetune:     dkl result: 346.1244075908877, nn result: 225.52611142796854
+ same dataset, different encoder:
+  pretrain dataset:   k_init: 15.42647647857666, k_finetune: 8.432372093200684, k_dis: -0.6533406972885132, mmd2 23.205507278442383
+  downstream dataset: k_init: 14.288606643676758, k_finetune: 13.941214561462402, k_dis: -4.591943740844727, mmd2 23.637876510620117
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 11.608922958374023, k_pre: 11.627118110656738, k_dis: -0.2966822683811188, mmd2 22.939361572265625
+  finetune_encoder:     k_down: 12.22893238067627, k_pre: 8.376250267028809, k_dis: -0.05842624604701996, mmd2 20.546754837036133
+
+dataset: qm7
+ distance type: kernel
+ epoch: 10
+  fix_pretrain: dkl result: 316.00018723227925, nn result: 1304.7538690490662
+  finetune:     dkl result: 235.52481844312436, nn result: 248.62408567253635
+ same dataset, different encoder:
+  pretrain dataset: k_init:   15.168877601623535, k_finetune: 3.205559730529785, k_dis: -4.159265517955646e-05, mmd2 18.3743953704834
+  downstream dataset: k_init: 14.94157600402832, k_finetune: 14.21086311340332, k_dis: -3.2004659175872803, mmd2 25.95197296142578
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 14.308074951171875, k_pre: 16.455671310424805, k_dis: -27.216556549072266, mmd2 3.5471904277801514
+  finetune_encoder: k_down:     13.102553367614746, k_pre: 3.113992691040039, k_dis: -1.875353973446181e-06, mmd2 16.216543197631836
+
+dataset: qm7
+ distance type: kernel
+ epoch: 20
+  fix_pretrain: dkl result: 188.8358901467046, nn result: 1342.543379478245
+  finetune:     dkl result: 271.8588077801518, nn result: 249.5567812019457
+ same dataset, different encoder:
+  pretrain dataset: k_init:   17.22739028930664, k_finetune: 15.978915214538574, k_dis: -15.967129707336426, mmd2 17.239173889160156
+  downstream dataset: k_init: 16.88770294189453, k_finetune: 15.161243438720703, k_dis: -10.631440162658691, mmd2 21.41750717163086
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 11.329029083251953, k_pre: 11.124663352966309, k_dis: -13.536373138427734, mmd2 8.917320251464844
+  finetune_encoder: k_down:     13.296133995056152, k_pre: 15.964472770690918, k_dis: -3.321228265762329, mmd2 25.93937873840332
+
+dataset: qm7
+ distance type: kernel
+ epoch: 30
+  fix_pretrain: dkl result: 357.6323437999323, nn result: 1317.1914004809898
+  finetune:     dkl result: 319.4732175939631, nn result: 273.41608834642597
+ same dataset, different encoder:
+  pretrain dataset: k_init:   16.250587463378906, k_finetune: 12.360252380371094, k_dis: -12.723465919494629, mmd2 15.887372970581055
+  downstream dataset: k_init: 15.962567329406738, k_finetune: 14.52544116973877, k_dis: -8.239850044250488, mmd2 22.248157501220703
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 12.244449615478516, k_pre: 15.052634239196777, k_dis: -22.058120727539062, mmd2 5.238963603973389
+  finetune_encoder: k_down:     12.467635154724121, k_pre: 12.324146270751953, k_dis: -1.455904483795166, mmd2 23.335878372192383
+
+dataset: qm7
+ distance type: kernel
+ epoch: 40
+  fix_pretrain: dkl result: 196.13413169732254, nn result: 1310.6994568270225
+  finetune:     dkl result: 239.17219922057123, nn result: 269.16280522657263
+ same dataset, different encoder:
+  pretrain dataset: k_init:   15.361087799072266, k_finetune: 9.12363052368164, k_dis: -0.0002288142713950947, mmd2 24.48448944091797
+  downstream dataset: k_init: 14.755524635314941, k_finetune: 14.337233543395996, k_dis: -3.0932352542877197, mmd2 25.999523162841797
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 12.577468872070312, k_pre: 15.046085357666016, k_dis: -22.622209548950195, mmd2 5.001345634460449
+  finetune_encoder: k_down:     13.485445976257324, k_pre: 9.069172859191895, k_dis: -2.638853584358003e-05, mmd2 22.55459213256836
+
+dataset: qm7
+ distance type: kernel
+ epoch: 50
+  fix_pretrain: dkl result: 219.6190654384128, nn result: 1146.913972371781
+  finetune:     dkl result: 254.66446508531283, nn result: 251.995342176723
+ same dataset, different encoder:
+  pretrain dataset: k_init:   15.354310035705566, k_finetune: 6.333248615264893, k_dis: -1.422002515027998e-05, mmd2 21.687543869018555
+  downstream dataset: k_init: 14.618024826049805, k_finetune: 14.382807731628418, k_dis: -2.546046733856201, mmd2 26.454784393310547
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 12.103813171386719, k_pre: 15.192557334899902, k_dis: -21.79964828491211, mmd2 5.4967217445373535
+  finetune_encoder: k_down:     13.677584648132324, k_pre: 6.259886264801025, k_dis: -7.928465493023396e-07, mmd2 19.937469482421875
+
+dataset: qm7
+ distance type: kernel
+ epoch: 60
+  fix_pretrain: dkl result: 232.29253821466187, nn result: 1199.011652883108
+  finetune:     dkl result: 244.47347253310414, nn result: 252.79885964563022
+ same dataset, different encoder:
+  pretrain dataset: k_init:   15.628540992736816, k_finetune: 5.92979621887207, k_dis: -0.00036715358146466315, mmd2 21.557968139648438
+  downstream dataset: k_init: 15.071786880493164, k_finetune: 14.307456016540527, k_dis: -4.962223529815674, mmd2 24.41701889038086
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 12.007355690002441, k_pre: 15.157685279846191, k_dis: -21.57190704345703, mmd2 5.593132495880127
+  finetune_encoder: k_down:     12.836725234985352, k_pre: 5.853677272796631, k_dis: -3.222337909392081e-05, mmd2 18.690370559692383
+
+dataset: qm7
+ distance type: kernel
+ epoch: 70
+  fix_pretrain: dkl result: 213.27058492900406, nn result: 1113.1257803982082
+  finetune:     dkl result: 227.64566806551622, nn result: 187.52398113950545
+ same dataset, different encoder:
+  pretrain dataset: k_init:   15.367911338806152, k_finetune: 12.864784240722656, k_dis: -9.161179832517519e-07, mmd2 28.232696533203125
+  downstream dataset: k_init: 14.642253875732422, k_finetune: 14.44892406463623, k_dis: -3.312551259994507, mmd2 25.778627395629883
+ different dataset, same encoder:
+  fix_pretrain_encoder: k_down: 11.9752836227417, k_pre: 15.455530166625977, k_dis: -22.561843872070312, mmd2 4.868971347808838
+  finetune_encoder: k_down:     13.593842506408691, k_pre: 12.84328556060791, k_dis: -4.01030071373043e-08, mmd2 26.437129974365234
+

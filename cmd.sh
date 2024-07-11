@@ -1,0 +1,1 @@
+python finetune.py --dataset bbbp --epochs 50 --ue_method none --runs 10

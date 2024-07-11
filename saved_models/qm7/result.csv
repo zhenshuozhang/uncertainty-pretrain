@@ -1,0 +1,23 @@
+kernel distance,input_model,distance function,model_id,size_of_in,size_of_out,rmse,nll,in_out,train_in,train_out,train_all
+none,none,kernel,no-value,2000000.0000,0.0000,137.8178,5.6244,no-value,no-value,no-value,6.6758
+none,none,cos,no-value,2000000.0000,0.0000,137.8178,5.6244,no-value,no-value,no-value,-0.3538
+models_graphcl/graphcl_sub_4_0.2.pth,models_graphcl/graphcl_sub_4_0.2.pth,cos,4_0.2,400000.0000,1600000.0000,172.1783,5.7454,0.0000,-0.0433,-0.0435,-0.0434
+models_graphcl/graphcl_sub_4_0.2.pth,models_graphcl/graphcl_sub_4_0.2.pth,kernel,4_0.2,400000.0000,1600000.0000,172.1783,5.7454,0.0031,8.3006,8.3061,8.3062
+models_graphcl/graphcl_sub_6_0.4.pth,models_graphcl/graphcl_sub_6_0.4.pth,cos,6_0.4,800000.0000,1200000.0000,328.6503,6.7581,0.0000,-0.1122,-0.1115,-0.1117
+models_graphcl/graphcl_sub_6_0.4.pth,models_graphcl/graphcl_sub_6_0.4.pth,kernel,6_0.4,800000.0000,1200000.0000,328.6503,6.7581,-0.0011,11.6370,11.6371,11.6366
+models_graphcl/graphcl_sub_5_0.6.pth,models_graphcl/graphcl_sub_5_0.6.pth,cos,5_0.6,1200000.0000,800000.0000,194.7981,5.9796,0.0000,-0.1110,-0.1110,-0.1111
+models_graphcl/graphcl_sub_5_0.6.pth,models_graphcl/graphcl_sub_5_0.6.pth,kernel,5_0.6,1200000.0000,800000.0000,194.7981,5.9796,0.0020,8.3034,8.3012,8.3009
+models_graphcl/graphcl_sub_7_0.8.pth,models_graphcl/graphcl_sub_7_0.8.pth,cos,7_0.8,1600000.0000,400000.0000,258.1945,6.1008,0.0000,-0.3836,-0.3839,-0.3837
+models_graphcl/graphcl_sub_7_0.8.pth,models_graphcl/graphcl_sub_7_0.8.pth,kernel,7_0.8,1600000.0000,400000.0000,258.1945,6.1008,0.0002,9.6572,9.6705,9.6401
+none,none,kernel,no-value,2000000.0000,0.0000,139.5746,0.0000,no-value,no-value,no-value,6.6685
+models_graphcl/graphcl_sub_4_0.2.pth,models_graphcl/graphcl_sub_4_0.2.pth,kernel,4_0.2,400000.0000,1600000.0000,239.8436,0.0000,0.0027,8.3041,8.3055,8.3054
+models_graphcl/graphcl_sub_6_0.4.pth,models_graphcl/graphcl_sub_6_0.4.pth,kernel,6_0.4,800000.0000,1200000.0000,243.5971,0.0000,-0.0012,11.6346,11.6292,11.6319
+models_graphcl/graphcl_sub_5_0.6.pth,models_graphcl/graphcl_sub_5_0.6.pth,kernel,5_0.6,1200000.0000,800000.0000,172.2395,0.0000,-0.0007,8.3017,8.2992,8.3103
+models_graphcl/graphcl_sub_7_0.8.pth,models_graphcl/graphcl_sub_7_0.8.pth,kernel,7_0.8,1600000.0000,400000.0000,225.0948,0.0000,0.0006,9.6689,9.6788,9.6660
+none,none,kernel,no-value,2000000.0000,0.0000,139.5746,0.0000,no-value,no-value,no-value,6.6691
+models_graphcl/graphcl_sub_4_0.2.pth,models_graphcl/graphcl_sub_4_0.2.pth,kernel,4_0.2,400000.0000,1600000.0000,239.8436,0.0000,0.0025,8.3034,8.3052,8.3052
+none,none,kernel,no-value,2000000.0000,0.0000,139.5745,0.0000,no-value,no-value,no-value,6.6700
+models_graphcl/graphcl_20.pth,models_graphcl/graphcl_20.pth,kernel,no-value,2000000.0000,0.0000,125.7945,0.0000,no-value,no-value,no-value,13.7595
+models_graphcl/graphcl_40.pth,models_graphcl/graphcl_40.pth,kernel,no-value,2000000.0000,0.0000,129.4582,0.0000,no-value,no-value,no-value,14.7812
+models_graphcl/graphcl_60.pth,models_graphcl/graphcl_60.pth,kernel,no-value,2000000.0000,0.0000,126.0320,0.0000,no-value,no-value,no-value,13.5453
+models_graphcl/graphcl_80.pth,models_graphcl/graphcl_80.pth,kernel,no-value,2000000.0000,0.0000,137.6366,0.0000,no-value,no-value,no-value,14.5180

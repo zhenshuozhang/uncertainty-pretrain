@@ -1,0 +1,40 @@
+dataset: qm7
+ distance type: kernel
+ model: pre
+ kernel output scale: 16.09545135498047
+  self points:
+   min: 4.810750961303711, max: 16.09545135498047, mean: 13.949830055236816, edge: 6.636180400848389
+  center dis:
+   min: 9.62586564276502e-13, max: 15.57880687713623, mean: 0.0007898429757915437
+  in dis: 37, out dis: 1999963
+
+dataset: qm7
+ distance type: kernel
+ model: none
+ kernel output scale: 16.12045669555664
+  self points:
+   min: 1.5841761827468872, max: 16.120454788208008, mean: 7.651493072509766, edge: 4.606612682342529
+  center dis:
+   min: 0.0, max: 15.305490493774414, mean: 1.7697997093200684
+  in dis: 665358, out dis: 1334642
+
+dataset: qm7
+ distance type: l2
+ model: pre
+ kernel output scale: 16.09545135498047
+  self points:
+   min: 6.859035238448996e-06, max: 32.85619354248047, mean: 6.210561752319336, edge: 11.164427757263184
+  center dis:
+   min: 6.214663505554199, max: 142.3755645751953, mean: 91.64031219482422
+  in dis: 0, out dis: 2000000
+
+dataset: qm7
+ distance type: l2
+ model: none
+ kernel output scale: 16.12045669555664
+  self points:
+   min: 6.266119726205943e-06, max: 28.42212677001953, mean: 8.125824928283691, edge: 4.841672420501709
+  center dis:
+   min: 4.898901462554932, max: 1109.114501953125, mean: 50.349361419677734
+  in dis: 0, out dis: 2000000
+

@@ -1,0 +1,39 @@
+dataset: esol
+ distance type: kernel
+ epoch: none
+dataset: esol
+ distance type: kernel
+ epoch: none
+  none    : dkl result: 1.0741898180873175, nn result: 1.1046421196645582
+  pretrain: dkl result: 1.090198719170104, nn result: 1.0612918705639858
+ same kernel in train data:
+  none-kernel: none_diversity: 0.6172868013381958, pre_diversity: 0.38624534010887146, none_pre_distance: -0.5732077360153198, none_pre_mmd: 0.4303244352340698
+  pre-kernel : none_diversity: 0.7505444288253784, pre_diversity: 0.6548891067504883, none_pre_distance: -1.1354858875274658, none_pre_mmd: 0.2699476480484009
+ same encoder in different data:
+  none-encoder: downstream_diversity: 0.6172868609428406, pretrain_diversity: 0.9939268827438354, downstream_pretrain_distance: -1.064988374710083, downstream_pretrain_mmd: 0.546225368976593
+  pre-encoder : downstream_diversity: 0.6548891067504883, pretrain_diversity: 0.8504530787467957, downstream_pretrain_distance: -0.3693779408931732, downstream_pretrain_mmd: 1.1359641551971436
+
+dataset: esol
+ distance type: kernel
+ epoch: none
+  none    : dkl result: 1.0745589172489256, nn result: 1.052893739035348
+  pretrain: dkl result: 1.1670348205992707, nn result: 1.1192186205713717
+ same kernel in train data:
+  none-kernel: none_diversity: 0.6483515501022339, pre_diversity: 0.42705801129341125, none_pre_distance: -0.724834680557251, none_pre_mmd: 0.3505748510360718
+  pre-kernel : none_diversity: 0.79973304271698, pre_diversity: 0.6821171641349792, none_pre_distance: -1.2444649934768677, none_pre_mmd: 0.23738515377044678
+ same encoder in different data:
+  none-encoder: downstream_diversity: 0.6483515501022339, pretrain_diversity: 1.0185973644256592, downstream_pretrain_distance: -1.2531402111053467, downstream_pretrain_mmd: 0.4138084948062897
+  pre-encoder : downstream_diversity: 0.6821171641349792, pretrain_diversity: 1.0615804195404053, downstream_pretrain_distance: -0.901844322681427, downstream_pretrain_mmd: 0.8418533205986023
+
+dataset: esol
+ distance type: kernel
+ epoch: none
+  none    : dkl result: 1.1250963268106182, nn result: 1.0730160249761669
+  pretrain: dkl result: 1.1672573959585308, nn result: 1.133946149954624
+ same kernel in train data:
+  none-kernel: none_diversity: 0.6661979556083679, pre_diversity: 0.4342100918292999, none_pre_distance: -0.721290647983551, none_pre_mmd: 0.3791174292564392
+  pre-kernel : none_diversity: 0.8087279200553894, pre_diversity: 0.6814351081848145, none_pre_distance: -1.2367162704467773, none_pre_mmd: 0.2534468173980713
+ same encoder in different data:
+  none-encoder: downstream_diversity: 0.6661980748176575, pretrain_diversity: 1.027945637702942, downstream_pretrain_distance: -1.3943524360656738, downstream_pretrain_mmd: 0.2997913062572479
+  pre-encoder : downstream_diversity: 0.681435227394104, pretrain_diversity: 1.0616364479064941, downstream_pretrain_distance: -0.8658811450004578, downstream_pretrain_mmd: 0.8771906495094299
+

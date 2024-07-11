@@ -1,0 +1,24 @@
+dataset: lipophilicity
+ distance type: kernel
+ epoch: none
+  none    : dkl result: 0.7545649281355616, nn result: 0.8005348909208685
+  pretrain: dkl result: 0.7492010351502393, nn result: 0.7887815572761496
+ same kernel in train data:
+  none-kernel: none_diversity: 0.4867250919342041, pre_diversity: 0.36199089884757996, none_pre_distance: -0.4270530641078949, none_pre_mmd: 0.42166295647621155
+  pre-kernel : none_diversity: 0.526235044002533, pre_diversity: 0.46247512102127075, none_pre_distance: -0.6615681052207947, none_pre_mmd: 0.32714205980300903
+ same encoder in different data:
+  none-encoder: downstream_diversity: 0.4867250919342041, pretrain_diversity: 0.27277809381484985, downstream_pretrain_distance: -0.3374007046222687, downstream_pretrain_mmd: 0.42210251092910767
+  pre-encoder : downstream_diversity: 0.46247512102127075, pretrain_diversity: 0.38284602761268616, downstream_pretrain_distance: -0.013446453027427197, downstream_pretrain_mmd: 0.8318747878074646
+
+dataset: lipophilicity
+ distance type: kernel
+ epoch: none
+  none    : dkl result: 0.7536772604596593, nn result: 0.7750541705959043
+  pretrain: dkl result: 0.7446460798461771, nn result: 0.774251428772015
+ same kernel in train data:
+  none-kernel: none_diversity: 0.4614052474498749, pre_diversity: 0.253439337015152, none_pre_distance: -0.18661218881607056, none_pre_mmd: 0.5282323956489563
+  pre-kernel : none_diversity: 0.6118022799491882, pre_diversity: 0.46393197774887085, none_pre_distance: -0.6572833061218262, none_pre_mmd: 0.4184509515762329
+ same encoder in different data:
+  none-encoder: downstream_diversity: 0.4614052474498749, pretrain_diversity: 0.3146170675754547, downstream_pretrain_distance: -0.1376940757036209, downstream_pretrain_mmd: 0.6383282542228699
+  pre-encoder : downstream_diversity: 0.46393194794654846, pretrain_diversity: 0.620237410068512, downstream_pretrain_distance: -0.01707381382584572, downstream_pretrain_mmd: 1.067095398902893
+

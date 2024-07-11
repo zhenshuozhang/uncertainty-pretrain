@@ -1,0 +1,4 @@
+uncertainty method,rmse-mean,mae-mean,var-mean,nll-mean,ce-mean,rmse-std,mae-std,var-std,nll-std,ce-std
+GraphCL-embsvdkl-s2,0.0357,0.0211,0.0064,-2.7458,0.0065,0.0002,0.0002,0.0003,0.0110,0.0002
+GraphCL-embsvdkl-s2-elbo,0.0358,0.0212,0.0076,-2.7178,0.0069,0.0004,0.0002,0.0010,0.0186,0.0004
+nopretrain-embsvdkl-s2,0.0348,0.0204,0.0022,-2.9361,0.0094,0.0003,0.0002,0.0004,0.0133,0.0006

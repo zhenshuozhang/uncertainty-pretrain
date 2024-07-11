@@ -1,0 +1,174 @@
+dataset: qm7
+ distance type: kernel
+ iter: 0
+  finetune result: dkl result: 139.04477200490504, nn result: 138.44354500790584
+  subset order: dkl result: [1 3 9 8 5 4 7 6 0 2]
+
+dataset: qm7
+ distance type: kernel
+ iter: 1
+  finetune result: dkl result: 212.72188458418455, nn result: 215.37493344069847
+  subset order: dkl result: [9 2 1 7 6 4 8 0 5 3]
+
+dataset: qm7
+ distance type: kernel
+ iter: 2
+  finetune result: dkl result: 327.89658960805264, nn result: 304.1448672361772
+  subset order: dkl result: [4 2 1 7 9 8 0 6 3 5]
+
+dataset: qm7
+ distance type: kernel
+ iter: 3
+  finetune result: dkl result: 227.66636862442942, nn result: 222.88635136715342
+  subset order: dkl result: [4 0 7 1 9 5 3 8 6 2]
+
+dataset: qm7
+ distance type: kernel
+ iter: 4
+  finetune result: dkl result: 194.97582717086763, nn result: 188.15040030573002
+  subset order: dkl result: [9 1 4 2 7 5 6 8 0 3]
+
+dataset: qm7
+ distance type: kernel
+ iter: 5
+  finetune result: dkl result: 185.05361950470632, nn result: 188.21679612165218
+  subset order: dkl result: [1 3 6 7 5 9 4 0 2 8]
+
+dataset: qm7
+ distance type: kernel
+ iter: 6
+  finetune result: dkl result: 174.69211858644658, nn result: 176.37166545612163
+  subset order: dkl result: [0 1 8 4 3 5 9 7 6 2]
+
+dataset: qm7
+ distance type: kernel
+ iter: 7
+  finetune result: dkl result: 192.7361433746126, nn result: 169.28088100903312
+  subset order: dkl result: [2 1 6 8 3 9 4 7 5 0]
+
+dataset: qm7
+ distance type: kernel
+ iter: 8
+  finetune result: dkl result: 185.42309435296926, nn result: 180.957293629137
+  subset order: dkl result: [5 1 4 6 9 2 7 8 0 3]
+
+dataset: qm7
+ distance type: kernel
+ iter: 0
+  finetune result: dkl result: 125.9238120155636, nn result: 127.96122010577783
+  subset order: dkl result: [9 1 3 4 8 6 2 7 0 5]
+
+dataset: qm7
+ distance type: kernel
+ iter: 1
+  finetune result: dkl result: 139.15510061618863, nn result: 147.3399419748748
+  subset order: dkl result: [1 2 9 8 6 0 4 5 7 3]
+
+dataset: qm7
+ distance type: kernel
+ iter: 2
+  finetune result: dkl result: 271.9866579627954, nn result: 280.5168827433237
+  subset order: dkl result: [1 2 0 9 5 8 7 6 3 4]
+
+dataset: qm7
+ distance type: kernel
+ iter: 3
+  finetune result: dkl result: 206.32407415832878, nn result: 202.2549824140368
+  subset order: dkl result: [9 4 7 3 6 2 1 0 5 8]
+
+dataset: qm7
+ distance type: kernel
+ iter: 4
+  finetune result: dkl result: 188.09171819284714, nn result: 168.1181841940321
+  subset order: dkl result: [9 2 8 4 1 5 6 7 3 0]
+
+dataset: qm7
+ distance type: kernel
+ iter: 5
+  finetune result: dkl result: 148.3577373959336, nn result: 149.7422107339063
+  subset order: dkl result: [5 8 2 3 0 9 4 7 1 6]
+
+dataset: qm7
+ distance type: kernel
+ iter: 6
+  finetune result: dkl result: 194.3500959543642, nn result: 173.02909678569654
+  subset order: dkl result: [1 8 9 3 6 2 4 7 5 0]
+
+dataset: qm7
+ distance type: kernel
+ iter: 7
+  finetune result: dkl result: 158.4031980579608, nn result: 148.35268087323084
+  subset order: dkl result: [2 3 9 6 8 0 4 1 5 7]
+
+dataset: qm7
+ distance type: kernel
+ iter: 8
+  finetune result: dkl result: 234.626288492455, nn result: 211.95038532591374
+  subset order: dkl result: [0 6 5 1 3 8 7 9 4 2]
+
+dataset: qm7
+ distance type: kernel
+ iter: 9
+  finetune result: dkl result: 269.3213546806427, nn result: 249.18843334527384
+  subset order: dkl result: [1 6 5 3 0 7 2 8 4 9]
+
+Time: 2024-02-23 14:10:59dataset: qm7
+ distance type: kernel
+ iter: 0
+  finetune result: dkl result: 131.67851756699304, nn result: 155.611412722125
+  subset order: dkl result: [5 9 6 3 2 8 4 7 0 1]
+
+Time: 2024-02-23 14:46:15dataset: qm7
+ distance type: kernel
+ iter: 1
+  finetune result: dkl result: 160.4280740003813, nn result: 157.29823293342588
+  subset order: dkl result: [5 1 7 4 2 0 6 3 9 8]
+
+Time: 2024-02-23 15:21:25dataset: qm7
+ distance type: kernel
+ iter: 2
+  finetune result: dkl result: 170.24842043600546, nn result: 153.55967238592353
+  subset order: dkl result: [3 2 5 9 6 7 8 0 4 1]
+
+Time: 2024-02-23 15:57:23dataset: qm7
+ distance type: kernel
+ iter: 3
+  finetune result: dkl result: 246.44612940993582, nn result: 236.7468628338868
+  subset order: dkl result: [8 3 5 1 0 2 4 6 7 9]
+
+Time: 2024-02-23 16:32:47dataset: qm7
+ distance type: kernel
+ iter: 4
+  finetune result: dkl result: 225.05240200073092, nn result: 185.7408349189916
+  subset order: dkl result: [9 4 6 8 3 1 7 5 2 0]
+
+Time: 2024-02-23 17:08:28dataset: qm7
+ distance type: kernel
+ iter: 5
+  finetune result: dkl result: 230.63862572213753, nn result: 228.75126125223252
+  subset order: dkl result: [8 5 3 1 7 9 0 4 6 2]
+
+Time: 2024-02-23 17:43:44dataset: qm7
+ distance type: kernel
+ iter: 6
+  finetune result: dkl result: 169.46896030453877, nn result: 169.7909637342727
+  subset order: dkl result: [6 1 5 2 3 8 0 7 4 9]
+
+Time: 2024-02-23 18:19:44dataset: qm7
+ distance type: kernel
+ iter: 7
+  finetune result: dkl result: 165.51822109713996, nn result: 168.21630806432452
+  subset order: dkl result: [7 9 1 8 5 3 2 0 6 4]
+
+Time: 2024-02-23 18:55:33dataset: qm7
+ distance type: kernel
+ iter: 8
+  finetune result: dkl result: 237.06968024863198, nn result: 200.87585508754051
+  subset order: dkl result: [6 9 0 5 3 1 2 8 4 7]
+
+Time: 2024-02-23 19:30:57dataset: qm7
+ distance type: kernel
+ iter: 9
+  finetune result: dkl result: 194.63816730181765, nn result: 179.0485887561311
+  subset order: dkl result: [3 1 9 6 4 0 8 7 2 5]
+

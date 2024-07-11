@@ -1,0 +1,180 @@
+dataset: qm7
+ distance type: kernel
+ model: none
+  radius: tensor([[6.5277]], device='cuda:5', grad_fn=<MulBackward0>)
+  center dis:
+   min: 0.0, max: 15.389336585998535, mean: 2.1263015270233154
+  edge dis:
+   min: 0.0, max: 15.770066261291504, mean: 2.253387451171875
+  in dis: 1764740, out dis: 235260
+
+dataset: qm7
+ distance type: l2
+ model: pre
+  radius: tensor([1.4120], device='cuda:5')
+  center dis:
+   min: 6.358112335205078, max: 141.7699737548828, mean: 91.01970672607422
+  edge dis:
+   min: 6.008856773376465, max: 141.81668090820312, mean: 91.0467758178711
+  in dis: 0, out dis: 2000000
+
+dataset: qm7
+ distance type: kernel
+ model: pre
+  radius: tensor([[15.8799]], device='cuda:5', grad_fn=<MulBackward0>)
+  center dis:
+   min: 2.0434504511678692e-13, max: 15.826191902160645, mean: 0.00048218315350823104
+  edge dis:
+   min: 3.884849798622969e-13, max: 15.803235054016113, mean: 0.0005957485409453511
+  in dis: 2000000, out dis: 0
+
+dataset: qm7
+ distance type: l2
+ model: none
+  radius: tensor([18.4658], device='cuda:5')
+  center dis:
+   min: 4.355219841003418, max: 1106.2108154296875, mean: 49.989864349365234
+  edge dis:
+   min: 4.594587326049805, max: 1091.791748046875, mean: 52.95986557006836
+  in dis: 140820, out dis: 1859180
+
+dataset: qm7
+ distance type: kernel
+ model: bad
+  radius: tensor([[15.9039]], device='cuda:5', grad_fn=<MulBackward0>)
+  center dis:
+   min: 2.228474024236482e-13, max: 15.323502540588379, mean: 0.017598796635866165
+  edge dis:
+   min: 2.493526489889125e-13, max: 15.157744407653809, mean: 0.015746599063277245
+  in dis: 2000000, out dis: 0
+
+dataset: esol
+ distance type: kernel
+ model: none
+  radius: tensor([[0.8751]], device='cuda:5', grad_fn=<MulBackward0>)
+  center dis:
+   min: 2.4813280319335718e-08, max: 1.1855264902114868, mean: 1.1609772443771362
+  edge dis:
+   min: 2.5934591008081043e-07, max: 1.18373441696167, mean: 0.9215698838233948
+  in dis: 4514, out dis: 1995486
+
+dataset: esol
+ distance type: kernel
+ model: pre
+  radius: tensor([[0.2985]], device='cuda:5', grad_fn=<MulBackward0>)
+  center dis:
+   min: 0.0, max: 0.331074595451355, mean: 0.1462102085351944
+  edge dis:
+   min: 0.0, max: 0.11115769296884537, mean: 0.05824241414666176
+  in dis: 1999996, out dis: 4
+
+dataset: freesolv
+ distance type: kernel
+ model: none
+  radius: tensor([[1.2335]], device='cuda:5', grad_fn=<MulBackward0>)
+  center dis:
+   min: 2.617927385983876e-08, max: 1.2332836389541626, mean: 0.8090568780899048
+  edge dis:
+   min: 2.617927385983876e-08, max: 1.2332836389541626, mean: 0.8090568780899048
+  in dis: 2000000, out dis: 0
+
+dataset: freesolv
+ distance type: kernel
+ model: pre
+  radius: tensor([[1.2075]], device='cuda:5', grad_fn=<MulBackward0>)
+  center dis:
+   min: 0.011155501008033752, max: 0.9301930665969849, mean: 0.516090989112854
+  edge dis:
+   min: 0.011155501008033752, max: 0.9301930665969849, mean: 0.516090989112854
+  in dis: 2000000, out dis: 0
+
+dataset: freesolv
+ distance type: l2
+ model: pre
+  radius: tensor([0.], device='cuda:5')
+  center dis:
+   min: 5.703290939331055, max: 21.106645584106445, mean: 8.088019371032715
+  edge dis:
+   min: 5.703290939331055, max: 21.106645584106445, mean: 8.088019371032715
+  in dis: 0, out dis: 2000000
+
+dataset: freesolv
+ distance type: l2
+ model: none
+  radius: tensor([0.], device='cuda:5')
+  center dis:
+   min: 0.09245950728654861, max: 52.88986587524414, mean: 10.463162422180176
+  edge dis:
+   min: 0.09245950728654861, max: 52.88986587524414, mean: 10.463162422180176
+  in dis: 0, out dis: 2000000
+
+dataset: lipophilicity
+ distance type: kernel
+ model: pre
+  radius: tensor([[0.5327]], device='cuda:3', grad_fn=<MulBackward0>)
+  center dis:
+   min: 0.0, max: 0.11405397951602936, mean: 0.007073369808495045
+  edge dis:
+   min: 0.0, max: 0.15113197267055511, mean: 0.006840169429779053
+  in dis: 2000000, out dis: 0
+
+dataset: lipophilicity
+ distance type: kernel
+ model: none
+  radius: tensor([[0.5502]], device='cuda:4', grad_fn=<MulBackward0>)
+  center dis:
+   min: 9.037205937651466e-27, max: 0.7782317399978638, mean: 0.23585167527198792
+  edge dis:
+   min: 5.799326544764818e-29, max: 0.7337585687637329, mean: 0.06319025158882141
+  in dis: 1879562, out dis: 120438
+
+dataset: qm7
+ distance type: kernel
+ model: pre
+  radius: tensor([[14.1060]], device='cuda:4', grad_fn=<MulBackward0>)
+  center dis:
+   min: 5.1211371421813965, max: 16.09545135498047, mean: 13.604517936706543
+  edge dis:
+   min: 2.379828691482544, max: 16.09545135498047, mean: 14.858023643493652
+  in dis: 2708, out dis: 2759
+
+dataset: qm7
+ distance type: kernel
+ model: pre
+  radius: tensor([[15.3388]], device='cuda:4', grad_fn=<MulBackward0>)
+  center dis:
+   min: 4.235943794250488, max: 16.09545135498047, mean: 14.293246269226074
+  edge dis:
+   min: 5.014260768890381, max: 16.09545135498047, mean: 12.9360990524292
+  in dis: 3651, out dis: 1816
+
+dataset: qm7
+ distance type: kernel
+ model: pre
+  radius: tensor([[3.5217]], device='cuda:4', grad_fn=<MulBackward0>)
+  center dis:
+   min: 3.0745837688446045, max: 16.09545135498047, mean: 10.752009391784668
+  edge dis:
+   min: 0.31641867756843567, max: 16.09545135498047, mean: 10.595269203186035
+  in dis: 8, out dis: 5459
+
+dataset: qm7
+ distance type: kernel
+ model: pre
+  radius: tensor([[15.3880]], device='cuda:4', grad_fn=<MulBackward0>)
+  center dis:
+   min: 3.245091199874878, max: 16.09545135498047, mean: 14.86723804473877
+  edge dis:
+   min: 4.431400775909424, max: 16.09545135498047, mean: 14.220542907714844
+  in dis: 3078, out dis: 2389
+
+dataset: qm7
+ distance type: kernel
+ model: pre
+  radius: tensor([[7.5965]], device='cuda:4', grad_fn=<MulBackward0>)
+  center dis:
+   min: 2.829956531524658, max: 16.09545135498047, mean: 10.364591598510742
+  edge dis:
+   min: 1.3085739612579346, max: 16.09545135498047, mean: 14.327339172363281
+  in dis: 954, out dis: 4513
+

@@ -1,0 +1,81 @@
+bace:
+  batch_size: 256
+  epochs: 100
+  dkl_epochs: 40
+  ue_method: embsvdkl
+  n_inducing_points: 512
+  ind_type: 'kmeans'
+  dkl_s: s2
+  dkl_scale: 1
+  decay_dkl: 1e-3
+  input_model_file: 'models_graphcl/graphcl_80.pth'
+bbbp:
+  batch_size: 32
+  epochs: 70
+  dkl_epochs: 70
+  ue_method: embsvdkl
+  n_inducing_points: 512
+  ind_type: 'kmeans'
+  dkl_s: s2
+  dkl_scale: 1
+  decay_dkl: 1e-4
+  input_model_file: 'models_graphcl/graphcl_80.pth'
+clintox:
+  batch_size: 256
+  epochs: 100
+  dkl_epochs: 80
+  ue_method: embsvdkl
+  n_inducing_points: 512
+  ind_type: 'kmeans'
+  dkl_s: s2
+  dkl_scale: 1
+  decay_dkl: 1e-4
+  input_model_file: 'models_graphcl/graphcl_80.pth'
+tox21:
+  epochs: 100
+  dkl_epochs: 1
+  ue_method: svdkl
+  n_inducing_points: 256
+  ind_type: 'kmeans'
+  dkl_s: s2
+  dkl_scale: 1
+  decay_dkl: 1e-4
+  input_model_file: 'models_graphcl/graphcl_80.pth'
+hiv:
+  epochs: 100
+  dkl_epochs: 30
+  ue_method: svdkl
+  n_inducing_points: 512
+  ind_type: 'random'
+  dkl_s: s2
+  dkl_scale: 0.1
+  decay: 1e-5
+  decay_dkl: 0
+  input_model_file: 'models_graphcl/graphcl_80.pth'
+muv:
+  epochs: 100
+  dkl_epochs: 20
+  ue_method: svdkl
+  dkl_s: s2
+  decay: 1e-4
+  input_model_file: 'models_graphcl/graphcl_80.pth'
+sider:
+  epochs: 100
+  dkl_epochs: 100
+  ue_method: svdkl
+  n_inducing_points: 512
+  ind_type: 'kmeans'
+  dkl_s: s2
+  dkl_scale: 0.1
+  decay_dkl: 1e-5
+  input_model_file: 'models_graphcl/graphcl_80.pth'
+qm7:
+  epochs: 100
+  dkl_epochs: 250
+  ue_method: svdkl
+  n_inducing_points: 1024
+  ind_type: 'random'
+  dkl_s: s2
+  dkl_scale: 1
+  decay_dkl: 1e-4
+  input_model_file: 'models_graphcl/graphcl_80.pth'
