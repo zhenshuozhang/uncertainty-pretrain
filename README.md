@@ -16,10 +16,7 @@ python pretrain_graphcl.py --aug1 random --aug2 random
 
 ### Finetuning: ###
 ```
-cd ./bio
-./finetune.sh
-cd ./chem
-./run.sh
+python finetune.py --dataset bbbp --epochs 50 --ue_method none --runs 10
 ```
 Results will be recorded in ```result.log```.
 
